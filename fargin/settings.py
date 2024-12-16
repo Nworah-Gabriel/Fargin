@@ -136,3 +136,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'fargin/static'),
     '/var/www/static/',
 ]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
