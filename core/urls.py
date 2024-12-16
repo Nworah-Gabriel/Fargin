@@ -5,4 +5,5 @@ urlpatterns = [
 
     # account urls
     path("", views.index, name="index"),
+    path("coming-soon", views.soon, name="coming-soon"),
 ]

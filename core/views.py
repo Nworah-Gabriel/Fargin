@@ -8,3 +8,6 @@ import requests
 
 def index(request):
     return render(request, "index.html")
+
+def soon(request):
+    return render(request, "comingSoon.html")
